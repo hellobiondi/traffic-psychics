@@ -30,7 +30,7 @@ def app():
     except:
         exhaust_emission_df = pd.read_csv("../assets/exhaust_emissions.csv")
 
-    st.title("Prototype")
+    st.title("The Prototype")
     # Explanation
     st.header('Geospatial Breakdown of Traffic Conditions')
     st.subheader('Prototype Explanation')

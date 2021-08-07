@@ -39,8 +39,17 @@ class MultiApp:
         })
 
     def run(self):
-        st.sidebar.header('Navigation')
-        st.sidebar.markdown('Hi there, this is the navigation tab. As pages <b>do not run concurrently</b>, after clicking into the Prototype page, do give the CV model some time to label the objects.', unsafe_allow_html=True)
+        sidebar_desc = '''
+            <h1>Traffic Psychics</h1>
+            <h2>Navigation Pane</h2>
+                <p>
+                    Hi there! This is your navigation pane.
+                </p>
+                <p>
+                    As pages <i><b>do not run concurrently</b></i>, after clicking into the Prototype page, do give the CV model some time to label the objects.
+                </p>
+        '''
+        st.sidebar.markdown(sidebar_desc, unsafe_allow_html = True)
         app = st.sidebar.radio(
             '',
             self.apps,
