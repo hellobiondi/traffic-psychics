@@ -60,10 +60,10 @@ We are a group of undergraduate students from Singapore Management University wh
 Despite being complete strangers before this, we managed to complete the hackaton, from conceptualisation to building an interactive web application as a proof of concept in the short 3 days and we are epecially proud of it. We are also thankful to have been able to place third for the hackaton.
 
 Do feel free to connect with us!
-- Liam Ayathan [[LinkedIn]]()[[GitHub]]()
-- Biondi Lee [[LinkedIn]]()[[GitHub]]()
-- Josh Ghinn [[LinkedIn]]()[[GitHub]]()
-- Sherlin Choo [[LinkedIn]]()[[GitHub]]()
-- Loh Kok Wee [[LinkedIn]]()[[GitHub]]()
+- Liam Ayathan [[LinkedIn]](https://www.linkedin.com/in/liam-ayathan-046b3816b/)[[GitHub]](https://github.com/liam-a-21)
+- Biondi Lee [[LinkedIn]](https://www.linkedin.com/in/biondi-lee-516293158/)[[GitHub]](https://github.com/hellobiondi)
+- Josh Ghinn [[LinkedIn]](https://www.linkedin.com/in/josh-ghinn-8a4497131/)[[GitHub]](https://github.com/JoshGhinn)
+- Sherlin Choo [[LinkedIn]](https://www.linkedin.com/in/sherlin-choo-376096216/)[[GitHub]](https://github.com/sherxl)
+- Loh Kok Wee [[LinkedIn]](https://www.linkedin.com/in/loh-kok-wee-59a698142/)[[GitHub]](https://github.com/lohkokwee)
 
 [Back to top](#table-of-contents)

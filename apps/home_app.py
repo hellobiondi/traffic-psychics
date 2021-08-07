@@ -15,7 +15,7 @@ def app():
                 roads by utilizing open source traffic data combined with computer vision modeling.
             </p>
 
-        <h2>Contributors</h2>
+        <h2>The Psychics</h2>
             <p>Our team consists of:<p>
             <ul>
                 <li>Liam Ayathan
