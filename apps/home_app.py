@@ -22,21 +22,33 @@ def app():
                     [<a href = "https://www.linkedin.com/in/liam-ayathan-046b3816b/" target = "_blank">
                         LinkedIn
                     </a>]
+                    [<a href = "https://github.com/liam-a-21" target = "_blank">
+                        GitHub
+                    </a>]                    
                 </li>
                 <li>Biondi Lee
                     [<a href = "https://www.linkedin.com/in/biondi-lee-516293158/" target = "_blank">
                         LinkedIn
-                    </a>]  
+                    </a>]
+                    [<a href = "https://github.com/hellobiondi" target = "_blank">
+                        GitHub
+                    </a>]                      
                 </li>
                 <li>Josh Ghinn
                     [<a href = "https://www.linkedin.com/in/josh-ghinn-8a4497131/" target = "_blank">
                         LinkedIn
                     </a>]
+                    [<a href = "https://github.com/JoshGhinn" target = "_blank">
+                        GitHub
+                    </a>]                    
                 </li>
                 <li>Sherlin Choo
                     [<a href = "https://www.linkedin.com/in/sherlin-choo-376096216/" target = "_blank">
                         LinkedIn
                     </a>]
+                    [<a href = "https://github.com/sherxl" target = "_blank">
+                        GitHub
+                    </a>]                    
                 </li>
                 <li>Loh Kok Wee
                     [<a href = "https://www.linkedin.com/in/loh-kok-wee-59a698142/" target = "_blank">

@@ -106,11 +106,6 @@ def get_vehicle_data(camera_data_df, exhaust_emission_df):
         im = cv2.imread('sample_image.png')
         bbox, label, conf = cv.detect_common_objects(im)
 
-        # num_buses = label.count('bus')
-        # num_cars = label.count('car')
-        # num_trucks = label.count('truck')
-        # num_motorcycles = label.count('motorcycle')
-
         all_vehicles = np.array([label.count('bus'), label.count('car'), label.count('truck'), label.count('motorcycle')])
 
         camera_data_df.loc[index, 'vehicle_qty'] = all_vehicles.sum()
@@ -147,11 +142,12 @@ def create_heatmap(vehicle_qty_coord):
     camera_heatmap = folium.Map(location = [1.357, 103.826], zoom_start = 11.4)
 
     heatmap_gradient = {
-        0.2 : 'blue',
-        0.4 : 'orange',
-        0.6 : 'red',
-        0.8 : 'maroon',
-        1.0 : 'maroon'
+        0: 'Black',
+        0.6 : 'Navy',
+        0.7 : 'Blue',
+        0.8 : 'Yellow',
+        0.9 : 'Red',
+        1.0 : 'Maroon'
     }
 
     HeatMap(vehicle_qty_coord, radius = 20, gradient = heatmap_gradient).add_to(camera_heatmap)
@@ -194,15 +190,4 @@ if __name__ == '__main__':
     metadata = get_metadata(camera_data[0])
     camera_data_df = get_camera_data_df(camera_data, metadata)
 
-    # camera_data_df.to_csv("../assets/camera_data_df_example.csv", index = False)
-
-    exhaust_emission_df = pd.read_csv("../assets/exhaust_emissions.csv")
-
-    camera_data_df = get_vehicle_data(camera_data_df, exhaust_emission_df)
-
-    cv_df = camera_data_df[['camera_id', 'vehicle_qty', 'total_CO₂', 'total_NOx', 'total_CO', 'total_P']]
-    # cv_df.to_csv("../assets/camera_data_df_cv_example.csv", index = False)
-
-
-    # vehicle_qty_coord = get_vehicle_qty_coord(camera_data_df)
-    # print(camera_data_df)
+    # help(create_cameraId_map)
