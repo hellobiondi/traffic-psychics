@@ -5,7 +5,6 @@ from apps import home_app, background_info_app, methodology_app, prototype_app
 
 app = MultiApp()
 
-
 # Navigation
 app.add_app("About", home_app.app)
 app.add_app("Background Information", background_info_app.app)

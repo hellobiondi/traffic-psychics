@@ -39,7 +39,7 @@ def app():
         <p>
             We first find out the maximum possible emissions of CO, NOx and particulate matter by vehicle category 
             (motorcycles, cars, commercial goods vehicle, buses). This is possible by perusing the 
-            <a href = 'https://sso.agc.gov.sg/SL/EPMA1999-RG6?DocDate=20120629&ProvIds=Sc1-#Sc1-' target = _blank>EURO VI Emission Standards</a>, 
+            <a href = "https://sso.agc.gov.sg/SL/EPMA1999-RG6?DocDate=20120629&ProvIds=Sc1-#Sc1-" target = "_blank">Euro VI Emission Standards</a>, 
             which is a regulation framework that cars in Singapore adhere to.
         </p>
     '''
@@ -49,7 +49,7 @@ def app():
     methodology_exhaust_emission_2 = '''
         <p>
             For CO₂ emissions, we estimated a weighted average based on both the published dataset of fuel economy data of the vehicles, 
-            and Singapore Total Car Population by Make using <a href = 'https://data.gov.sg/dataset/annual-motor-vehicle-population-by-vehicle-type'>
+            and Singapore Total Car Population by Make using <a href = "https://data.gov.sg/dataset/annual-motor-vehicle-population-by-vehicle-type" target = "_blank">
             LTA’s Annual Vehicle Statistics 2020</a>.
         </p>
         <p>

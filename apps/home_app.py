@@ -4,8 +4,9 @@ def app():
     # HTML Description
     home_overview = '''
         <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
-        <h1>Traffic Psychics</h1>  
+        <h1>Traffic Psychics</h1> 
             <p><i>August 2021</i></p>
+        <h2>About</h2>
             <p>
                 This project was conducted as part of a submission to Surbana Jurong and Singapore Management University's "Code for Cities: Environmental Sustainability 
                 and Resiliency" Hackaton.
