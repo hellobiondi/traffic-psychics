@@ -46,7 +46,8 @@ class MultiApp:
                     Hi there! This is your navigation pane.
                 </p>
                 <p>
-                    As pages <i><b>do not run concurrently</b></i>, after clicking into the Prototype page, do give the CV model some time to label the objects.
+                    As pages <i><b>do not run concurrently</b></i>, while using the prototype, navigating away after the prototype 
+                    labels your traffic images would require the model to re-label the images if you wish to view the prototype again.
                 </p>
         '''
         st.sidebar.markdown(sidebar_desc, unsafe_allow_html = True)
@@ -54,5 +55,4 @@ class MultiApp:
             '',
             self.apps,
             format_func=lambda app: app['title'])
-
         app['function']()
