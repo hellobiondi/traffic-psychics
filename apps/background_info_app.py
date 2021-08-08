@@ -86,7 +86,7 @@ def app():
 
     background_ev_adoption_2 = '''
         <p>
-            That being said, if our assumptions hold true, in 2030, exhaust emissions will continue to remain a problem despite the push for EVs as ICE Vehicles continue to exist in large numbers.
+            That being said, if our assumptions hold true, in 2030, <i><b>exhaust emissions will continue to remain a problem</b></i> despite the push for EVs as ICE Vehicles continue to exist in large numbers.
         </p>
     '''
     st.markdown(background_ev_adoption_2, unsafe_allow_html = True)
@@ -107,7 +107,7 @@ def app():
 
     background_exhaust_emission_2 = '''
         <p>
-            Note that the barchart is log-scaled. This means that at higher levels of emissions in that of CO₂, the difference between vehicle categories is larger than it seems on the chart.
+            Note that the barchart is <i><b>log-scaled<b></i>. This means that at higher levels of emissions in that of CO₂, the difference between vehicle categories is larger than it seems on the chart.
         </p>
     '''
     st.markdown(background_exhaust_emission_2, unsafe_allow_html = True)
