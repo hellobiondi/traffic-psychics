@@ -142,12 +142,11 @@ def create_heatmap(vehicle_qty_coord):
     camera_heatmap = folium.Map(location = [1.357, 103.826], zoom_start = 11.4)
 
     heatmap_gradient = {
-        0: 'Black',
-        0.6 : 'Navy',
-        0.7 : 'Blue',
-        0.8 : 'Yellow',
-        0.9 : 'Red',
-        1.0 : 'Maroon'
+        0.2 : 'blue',
+        0.4 : 'orange',
+        0.6 : 'red',
+        0.8 : 'maroon',
+        1.0 : 'maroon',
     }
 
     HeatMap(vehicle_qty_coord, radius = 20, gradient = heatmap_gradient).add_to(camera_heatmap)
